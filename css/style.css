@@ -611,37 +611,33 @@ section#contact .form-group {
     margin-bottom: 25px;
 }
 
-section#row .form-group input{
-
-    color:yellow
-}
-
-section#row .form-group textarea {
+section#contact .rowa input,
+section#contact .rowa textarea {
     color: yellow;
     padding: 20px;
 }
 
-section#row .form-group input.form-control {
+section#contact .form-group input.form-control {
     height: auto;
 }
 
-section#row .form-group textarea.form-control {
+section#contact .form-group textarea.form-control {
     height: 236px;
 }
 
-section#row .form-control:focus {
+section#contact .form-control:focus {
     border-color: #fed136;
     box-shadow: none;
 }
 
-section#row ::-webkit-input-placeholder {
+section#contact ::-webkit-input-placeholder {
     font-weight: 700;
     color: #eeeeee;
     font-family: 'Montserrat', 'Helvetica Neue', Helvetica, Arial, sans-serif;
     text-transform: uppercase;
 }
 
-section#row :-moz-placeholder {
+section#contact :-moz-placeholder {
     font-weight: 700;
     color: #eeeeee;
     /* Firefox 18- */
@@ -649,7 +645,7 @@ section#row :-moz-placeholder {
     text-transform: uppercase;
 }
 
-section#row ::-moz-placeholder {
+section#contact ::-moz-placeholder {
     font-weight: 700;
     color: #eeeeee;
     /* Firefox 19+ */
@@ -657,14 +653,14 @@ section#row ::-moz-placeholder {
     text-transform: uppercase;
 }
 
-section#row :-ms-input-placeholder {
+section#contact :-ms-input-placeholder {
     font-weight: 700;
     color: #eeeeee;
     font-family: 'Montserrat', 'Helvetica Neue', Helvetica, Arial, sans-serif;
     text-transform: uppercase;
 }
 
-section#row .text-danger {
+section#contact .text-danger {
     color: #e74c3c;
 }
 
