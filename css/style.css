@@ -604,16 +604,15 @@ section#contact {
 }
 
 section#contact .section-heading {
-    color: red;
+    color: white;
 }
 
 section#contact .form-group {
     margin-bottom: 25px;
 }
 
-section#contact .rowa input,
-section#contact .rowa textarea {
-    color: yellow;
+section#contact .form-group input,
+section#contact .form-group textarea {
     padding: 20px;
 }
 
