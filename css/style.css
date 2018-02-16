@@ -611,7 +611,11 @@ section#contact .form-group {
     margin-bottom: 25px;
 }
 
-section#contact .form-group input,
+section#contact .form-group input{
+
+    color:yellow
+}
+
 section#contact .form-group textarea {
     color: yellow;
     padding: 20px;
